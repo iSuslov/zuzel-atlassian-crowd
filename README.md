@@ -13,7 +13,7 @@ You can create an instance with different options by <code>new AtlassianCrowd(YO
 
 The package exposes <code>Meteor.loginWithCrowd(username, password, callback)</code> method for login. This method automatically creates a new Meteor user if not exists.
 
-##Config
+## Config
 
 <code>ATLASSIAN_CROWD_CONFIG</code> namespace is reserved for default Crowd configuration.
 Default Crowd configuration is required if you want to use <code>Meteor.loginWithCrowd</code>. Define it somewere on a server. Example:
@@ -29,13 +29,13 @@ Default Crowd configuration is required if you want to use <code>Meteor.loginWit
 	});
 </pre>
 
-##Example Client
+## Example Client
 <pre>
 	var username = form.find("#username").val()
         var pass = form.find("#password").val()
 	Meteor.loginWithCrowd(username, pass, callback);
 </pre>
-##Example Server
+## Example Server
 <pre>
 	var findCrowdUsersCallback = function (error, response) {
         	if (response) {
