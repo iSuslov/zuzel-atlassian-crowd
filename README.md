@@ -1,11 +1,13 @@
 # zuzel:atlassian-crowd
 A Meteor package for the Atlassian Crowd.
-
-
+To add:
+<pre>
+meteor add zuzel:atlassian-crowd
+</pre>
 
 ## Documentation
 
-Access the module in js as <code>AtlassianCrowd.instance()</code>.
+Access the module in js with <code>AtlassianCrowd.instance()</code>.
 
 You can create an instance with different options by <code>new AtlassianCrowd(YOUR_OPTIONS)</code>.
 
@@ -53,6 +55,6 @@ https://confluence.atlassian.com/display/CROWD/Adding+an+Application#AddinganApp
 
 ## Kudos
 
-Uses the node package atlassian-crowd. Instead of using v0.4.4 from April 2013, uses last commit with a lot of improvements including error handling. 
+Uses the node package atlassian-crowd. Instead of using v0.4.4 from April 2013, uses last commit with a lot of improvements including solid error handling. 
 https://www.npmjs.com/package/atlassian-crowd
 
