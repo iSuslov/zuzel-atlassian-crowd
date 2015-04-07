@@ -1,5 +1,5 @@
 {
 	"name": "atlassian-crowd",
 	"description": "A node.js module for atlassian-crowd, extended to Meteor.",
-	"version": "0.0.1"
+	"version": "0.0.3"
 }

@@ -1,7 +1,7 @@
 Package.describe({
 	git: 'https://github.com/iSuslov/zuzel-atlassian-crowd.git',
 	name: 'zuzel:atlassian-crowd',
-	version: '0.0.1',
+	version: '0.0.3',
 	summary: 'A Meteor package for Atlassian Crowd.',
 	documentation: 'README.md'
 
