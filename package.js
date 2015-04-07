@@ -1,5 +1,5 @@
 Package.describe({
-
+	git: 'https://github.com/iSuslov/zuzel-atlassian-crowd.git',
 	name: 'zuzel:atlassian-crowd',
 	version: '0.0.1',
 	summary: 'A Meteor package for Atlassian Crowd.',
@@ -20,5 +20,6 @@ Package.onUse(function(api) {
 });
 
 Npm.depends({ 'atlassian-crowd': 'https://github.com/dsn/node-atlassian-crowd/tarball/b9014d2266c21e9949ce9c8e7dcfae7e7a1ae501' });
+
 
 
