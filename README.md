@@ -1,4 +1,4 @@
-# A Meteor package for the Atlassian Crowd.
+## A Meteor package for the Atlassian Crowd.
 
 To add:
 <pre>
