@@ -16,7 +16,7 @@ The package exposes <code>Meteor.loginWithCrowd(username, password, callback)</c
 ##Config
 
 <code>ATLASSIAN_CROWD_CONFIG</code> namespace is reserved for default Crowd configuration.
-Default Crowd configuration is required if you want to use <code>Meteor.loginWithCrowd</code>. Define it somewere on server. Example:
+Default Crowd configuration is required if you want to use <code>Meteor.loginWithCrowd</code>. Define it somewere on a server. Example:
 <pre>
 	Meteor.startup(function () {
             ATLASSIAN_CROWD_CONFIG.crowd = {
