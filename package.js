@@ -19,7 +19,7 @@ Package.onUse(function(api) {
 
 });
 
-Npm.depends({ 'atlassian-crowd': 'https://github.com/dsn/node-atlassian-crowd/tarball/b9014d2266c21e9949ce9c8e7dcfae7e7a1ae501' });
+Npm.depends({ 'atlassian-crowd': 'https://github.com/iSuslov/node-atlassian-crowd/tarball/fed846a99264fadb5d1762a0b76c27c7e857da5e' });
 
 
 
