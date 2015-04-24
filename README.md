@@ -474,4 +474,4 @@ https://confluence.atlassian.com/display/CROWD/Adding+an+Application#AddinganApp
 Uses npm package <code>atlassian-crowd</code>. Instead of using v0.4.4 from April 2013, uses last commit with a lot of improvements including solid error handling. 
 https://www.npmjs.com/package/atlassian-crowd
 
-
+Special thanks to Ben Y.
